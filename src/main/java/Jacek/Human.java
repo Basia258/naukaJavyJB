@@ -12,15 +12,16 @@ public class Human {
         return "My name is " + name;
     }
 
-    public int getAge() {
-        return age;
+        public int getAge(int age){
+            return age;
     }
 
-    public float getWeight() {
+    public float getWeight(float weight) {
         return weight;
     }
 
-    public boolean isAdult() {
+    public boolean isAdult(boolean isAdult) {
         return isAdult;
     }
+
 }

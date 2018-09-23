@@ -16,5 +16,18 @@ public class MainHuman {
         String wynikMetodkiIntruduceMyself = jacek.introduceMyself("Jacek");
 
         System.out.println(wynikMetodkiIntruduceMyself);
+
+        Integer wiekMetodkiIntruduceMyself = jacek.getAge(27);
+
+        System.out.println("Mam lat");
+
+        System.out.print(wiekMetodkiIntruduceMyself);
+//      Co musze zrobić aby w programie zdanie "Mam lat 27" było w jednej linijce?
+
+        Float wagaMetodkiIntruduceMyself = jacek.getWeight(74,9);
+// Nie wiem dlaczego nie pozwala mi wrzucić w parametry metody liczby 74,9?
+        System.out.println("Moja waga wynosi");
+
+        System.out.print(wagaMetodkiIntruduceMyself);
     }
 }
