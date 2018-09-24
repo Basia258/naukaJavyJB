@@ -9,7 +9,7 @@ public class Human {
     private boolean isAdult;
 
     public String introduceMyself(String name) {
-        return "My name is " + name;
+        return "Mam na imie " + name;
     }
 
         public int getAge(int age){
