@@ -25,8 +25,14 @@ public class MainHuman {
 
         Float wagaMetodkiIntruduceMyself = jacek.getWeight((float) 74.9);
 
-        System.out.print("Moja waga wynosi");
+        System.out.print("Moja waga wynosi ");
 
-        System.out.print(wagaMetodkiIntruduceMyself);
+        System.out.println(wagaMetodkiIntruduceMyself);
+
+        boolean dojrzaloscMetodkiIntruduceMyself = jacek.isAdult(true);
+
+        System.out.print("Pelnoletnosc ");
+
+        System.out.println(dojrzaloscMetodkiIntruduceMyself);
     }
 }
