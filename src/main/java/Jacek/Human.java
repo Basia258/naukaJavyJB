@@ -20,7 +20,7 @@ public class Human {
         this.isAdult = isAdult;
     }
 
-    public Human(String name, int age) {
+    public Human(String name, int age,boolean isAdult) {
         this.name = name;
         this.age = age;
     }
@@ -30,7 +30,8 @@ public class Human {
         return this.age;
     }
 
-    public double getWeight() {
+    public double getWeight()
+    {
         return this.weight;
     }
 

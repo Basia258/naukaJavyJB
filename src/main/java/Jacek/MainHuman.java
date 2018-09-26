@@ -11,13 +11,19 @@ public class MainHuman {
 //      A druga rzecz do poprawy to jest typ zmiennej Jacek. Zmienna Jacek (zmienne piszemy z malej litery :P ) musi byc tego samego typu
 //      co obiekt na ktory wskazuja. Czyli poprawnie bedzie:   Human jacek = new Human();
 
-        Human jacek = new Human("Pawel", 29, 88, true);
+        Human jacek = new Human("Jacek", 27, 73.3, true);
+        Human brat2 = new Human("Pawel",30,true);
+        Human brat1 = new Human("Tomek",33,true);
+        Human brat3 = new Human("Wojtek",24,true);
 
+        System.out.println(jacek.getName());
+        System.out.print("Ma lat ");
         System.out.println(jacek.getAge());
-        System.out.println(jacek.getAge());
-        System.out.println(jacek.getAge());
-        System.out.println(jacek.getAge());
-
+        System.out.print("Waży ");
+        System.out.println(jacek.getWeight());
+        System.out.print("Czy jest dorosły? ");
+        System.out.println(jacek.isAdult());
 
     }
-}
+    }
+
