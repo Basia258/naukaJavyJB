@@ -24,6 +24,24 @@ public class MainHuman {
         System.out.print("Czy jest dorosły? ");
         System.out.println(jacek.isAdult());
 
+        System.out.println(brat1.getName());
+        System.out.print("Ma lat ");
+        System.out.println(brat2.getAge());
+        System.out.print("Czy jest dorosły? ");
+        System.out.println(brat2.isAdult());
+
+        System.out.println(brat2.getName());
+        System.out.print("Ma lat ");
+        System.out.println(brat1.getAge());
+        System.out.print("Czy jest dorosły? ");
+        System.out.println(brat2.isAdult());
+
+        System.out.println(brat3.getName());
+        System.out.print("Ma lat ");
+        System.out.println(brat3.getAge());
+        System.out.print("Czy jest dorosły? ");
+        System.out.println(brat3.isAdult());
+
     }
     }
 
