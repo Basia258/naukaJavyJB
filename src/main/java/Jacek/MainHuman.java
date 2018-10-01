@@ -27,6 +27,7 @@ public class MainHuman {
         System.out.println(brat1.getName());
         System.out.print("Ma lat ");
         System.out.println(brat2.getAge());
+        brat1.setAdult();
         System.out.print("Czy jest dorosły? ");
         System.out.println(brat2.isAdult());
 
@@ -44,4 +45,5 @@ public class MainHuman {
 
     }
     }
+
 
