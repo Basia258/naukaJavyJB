@@ -4,15 +4,19 @@ public class Human {
 
     private String name;
     private int age;
+    private boolean isAdult;
 
     //konstructor
-    public Human(String szufladkaDoPrzechowaniaTymczasowegoImienia)
+    public Human(String name, int age, boolean isAdult)
     {
-        this.name = szufladkaDoPrzechowaniaTymczasowegoImienia;
+        this.name = name;
+        this.age = age;
+        this.isAdult = isAdult;
     }
 
     //getter
     public int getAge()
+
     {
         return this.age;
     }
@@ -20,12 +24,24 @@ public class Human {
     public String getName()
     {
         return this.name;
-    }
 
+    }
+    public boolean isAdult()
+    {
+        return this.isAdult;
+    }
     //setter
-    public void setAge(int dupa)
+    public void setName(String name)
     {
 
-        this.age = dupa;
+        this.name = name;
+    }
+    public void setAge(int age)
+    {
+        this.age = age;
+    }
+
+    public void setAdult(boolean isAdult) {
+        this.isAdult = isAdult;
     }
 }
