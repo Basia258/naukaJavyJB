@@ -46,4 +46,8 @@ public class Human {
     public String introduceMyself(String name) {
         return "Mam na imie " + name;
     }
+    public void setAdult()
+    {
+        this.isAdult = true;
+    }
 }
