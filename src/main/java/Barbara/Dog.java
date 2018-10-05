@@ -11,13 +11,12 @@ public class Dog {
     this.age = age;
     this.weight = weight;
     this.isDangerous = isDangerous;
-
     }
-        public String getName () {return this.name;}
-    public int getAge () {return this.age;}
-    public double getWeight (){return this.weight;}
-        public boolean isDangerous (){return.isDangerous;}
-}
+        public String getName() { return this.name; }
+        public int getAge() { return this.age; }
+        public double getWeight(){ return this.weight; }
+        public boolean isDangerous(){ return this.isDangerous; }
+
 
         public String TellHisName(String name) {return "His name is" + name;
 
