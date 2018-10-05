@@ -39,8 +39,7 @@ public class Human {
         return this.isAdult;
     }
 
-    public String getName(){
-        return this.name;
+    public String getName(){ return this.name;
     }
 
     public String introduceMyself(String name) {
