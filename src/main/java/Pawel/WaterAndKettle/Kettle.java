@@ -22,7 +22,15 @@ public class Kettle {
 
     }
 
+    public void turnOn()
+    {
+        this.isOn = true;
+    }
 
+    public void turnOff()
+    {
+        this.isOn = false;
+    }
 
 
 }
