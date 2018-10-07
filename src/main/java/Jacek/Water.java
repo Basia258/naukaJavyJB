@@ -12,6 +12,6 @@ public class Water {
         return this.isHot = isHot;
     }
     public void gotowanie (boolean toBoil){
-        this.isHot = toBoil;
+        this.isHot = true;
     }
 }
