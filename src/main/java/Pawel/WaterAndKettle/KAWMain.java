@@ -4,7 +4,6 @@ public class KAWMain {
 
     public static void main(String[] args)
     {
-
         Water wodaZimna = new Water();
 
         Water wodaGoraca = new Water();
@@ -32,8 +31,6 @@ public class KAWMain {
 //        czajnik.boilWater(wodaGoraca);
 //
 //        System.out.println("Nasza woda jest goraca: " + wodaGoraca.isHot());
-
-
 
     }
 }

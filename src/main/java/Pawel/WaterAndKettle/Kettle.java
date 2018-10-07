@@ -4,19 +4,19 @@ public class Kettle {
 
     private boolean isOn;
 
-    public void boilWater(Water wodaZimna)
+    public void boilWater(Water water)
     {
         if(this.isOn)
         {
             //tu gotujemy wode
-            if(wodaZimna.isHot())
+            if(water.isHot())
             {
                 System.out.println("Po kij mnie gotujesz? Jestem goraca ;)");
             }
             else
             {
                 System.out.println("OK! Gotujemy wode!");
-                wodaZimna.setHot(true);
+                water.setHot(true);
             }
         }
         else
