@@ -1,4 +1,4 @@
-package Jacek;
+package Jacek.KettleAndWater;
 
 public class Kettel {
 

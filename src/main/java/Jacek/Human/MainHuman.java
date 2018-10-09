@@ -1,4 +1,6 @@
-package Jacek;
+package Jacek.Human;
+
+import Jacek.Human.Human;
 
 public class MainHuman {
 

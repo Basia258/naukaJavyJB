@@ -1,4 +1,4 @@
-package Jacek;
+package Jacek.Czlowiek;
 
 public class Czlowiek {
     private String statusRodzinny;

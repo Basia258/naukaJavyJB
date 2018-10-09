@@ -25,6 +25,6 @@ public class Main {
 
 //        book = zoltaKsiazka;
 
-        System.out.println(zoltaKsiazka.getTytul());
+        System.out.println(miejsceNaKsiazke.getKsiazka().getTytul());
     }
 }
