@@ -3,18 +3,22 @@ package Jacek.Light;
 public class Wlacznik {
     private boolean jestWlaczony;
 
-  public void wlacz(){
-      this.jestWlaczony = true;
-  }
-  public void wylacz(){
-      this.jestWlaczony = false;
-  }
-  public void zapalZarowke (Wlacznik jestWlaczony){
-      if (this.jestWlaczony==false) {
-          System.out.println("światło sie nie pali, wlacz wlacznik");
+    public void wlacz () {
+        this.jestWlaczony = true;
+    }
+    public void wylacz () {
+        this.jestWlaczony = false;
+    }
+
+  public void zapalZarowke() {
+      if (this.jestWlaczony) {
+          if (Zarowka.jestZapalona()) {
+              System.out.println("pale sie juz");
+          } else {
+              System.out.println("zaraz sie zapale");
+          }
       }
-      else {
-          System.out.println("Swiatlo sie pali");
-      }
-  }
+    }
+
+
 }
