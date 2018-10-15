@@ -1,4 +1,4 @@
-package Jacek;
+package Jacek.Human;
 //pierwszy wersj jest to deklaracja pakietu
 
 public class Human {
