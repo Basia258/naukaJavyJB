@@ -10,9 +10,9 @@ public class Wlacznik {
         this.jestWlaczony = false;
     }
 
-  public void zapalZarowke() {
+  public void zapalZarowke(Zarowka dupa) {
       if (this.jestWlaczony) {
-          if (Zarowka.jestZapalona()) {
+          if (dupa.jestZapalona ()) {
               System.out.println("pale sie juz");
           } else {
               System.out.println("zaraz sie zapale");
