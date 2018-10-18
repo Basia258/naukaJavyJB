@@ -1,4 +1,4 @@
-package Jacek.Kompozycja.Szkola.BasiaiJacek;
+package Jacek.Kompozycja.BasiaiJacek;
 
 public class Basia {
     private Jacek jacek;

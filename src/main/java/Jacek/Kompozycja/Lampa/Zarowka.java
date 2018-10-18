@@ -1,4 +1,4 @@
-package Jacek.Kompozycja;
+package Jacek.Kompozycja.Lampa;
 
 public class Zarowka {
     public void swiec(){
