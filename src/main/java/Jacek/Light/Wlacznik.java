@@ -10,14 +10,13 @@ public class Wlacznik {
         this.jestWlaczony = false;
     }
 
-  public void zapalZarowke(Zarowka dupa) {
+  public void zapalZarowke() {
       if (this.jestWlaczony) {
-          if (dupa.jestZapalona ()) {
+          if Zarowka jestZapalony();{
               System.out.println("pale sie juz");
           } else {
               System.out.println("zaraz sie zapale");
-          }
-      }
+          }      }
     }
 
 
