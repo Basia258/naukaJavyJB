@@ -4,13 +4,13 @@ public class Czajnik {
 
     private Grzalka zmiennaDowolna;
 
-    private void setZmiennaDowolna(Grzalka zmiennaDupa)
+    public void setZmiennaDowolna(Grzalka zmiennaDupa)
     {
         this.zmiennaDowolna = zmiennaDupa;
     }
-    public void gotujeWode(Grzalka zmiennaDowolna)
+    public void gotujeWode()
     {
-        zmiennaDowolna.gotuje();
+        this.zmiennaDowolna.gotuje();
     }
 
 

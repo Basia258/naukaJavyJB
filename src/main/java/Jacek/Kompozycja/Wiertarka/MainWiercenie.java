@@ -7,7 +7,9 @@ public class MainWiercenie {
         Wiertlo male9 = new Wiertlo();
         Wiertarka bosch = new Wiertarka();
 
-        bosch.wierci(male9);
+        bosch.setRozmiar8(male9);
+
+        bosch.wierci();
 
     }
 

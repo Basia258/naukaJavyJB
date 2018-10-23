@@ -3,8 +3,7 @@ package Jacek.Kompozycja.Wiertarka;
 public class Wiertarka {
     private Wiertlo rozmiar8;
 
-    public void wierci(Wiertlo rozmiar8)
-    {
+    public void wierci() {
         rozmiar8.obracaSie();
     }
 

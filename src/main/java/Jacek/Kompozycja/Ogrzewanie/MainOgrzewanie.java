@@ -7,6 +7,8 @@ public class MainOgrzewanie {
         Grzalka skarpeta = new Grzalka();
         Czajnik elektrolux = new Czajnik ();
 
+        elektrolux.setZmiennaDowolna(skarpeta);
+
         elektrolux.gotujeWode(skarpeta);
 
     }
