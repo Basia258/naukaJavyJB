@@ -9,7 +9,7 @@ public class MainOgrzewanie {
 
         elektrolux.setZmiennaDowolna(skarpeta);
 
-        elektrolux.gotujeWode(skarpeta);
+        elektrolux.gotujeWode();
 
     }
 }
