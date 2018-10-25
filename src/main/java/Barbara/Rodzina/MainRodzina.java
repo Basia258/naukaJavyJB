@@ -9,6 +9,7 @@ public class MainRodzina {
         System.out.println( "Dziecko ma" + karol.getMojeKieszonkowe()+ " zł kieszonkowego");
 
         krystyna.dajKieszonkowe(karol, 100);
+        krystyna.dajKieszonkowe(karol, 20);
 
         System.out.println ("Dziecko ma" + karol.getMojeKieszonkowe() + " zł kieszonkowego");
     }

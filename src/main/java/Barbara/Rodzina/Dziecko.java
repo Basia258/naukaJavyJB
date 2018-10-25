@@ -8,8 +8,9 @@ public class Dziecko {
         return this.mojeKieszonkowe;
     }
 
-    public void setMojeKieszonkowe (double mojeKieszonkowe) {
-        this.mojeKieszonkowe = mojeKieszonkowe;
+    public void przyjmijKieszonkowe(double kasaZkieszonkowego)
+    {
+        this.mojeKieszonkowe = this.mojeKieszonkowe + kasaZkieszonkowego;
     }
 
 }

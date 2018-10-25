@@ -6,6 +6,6 @@ public class Mama
     public void  dajKieszonkowe(Dziecko mojeDziecko, double iloscKieszonkowego)
 
     {
-        mojeDziecko.setMojeKieszonkowe(iloscKieszonkowego);
+        mojeDziecko.przyjmijKieszonkowe(iloscKieszonkowego);
     }
 }
