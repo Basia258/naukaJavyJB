@@ -8,7 +8,7 @@ public class MainRodzina {
 
         System.out.println( "Dziecko ma" + karol.getMojeKieszonkowe()+ " zł kieszonkowego");
 
-        krystyna.dajKieszonkowe(karol);
+        krystyna.dajKieszonkowe(karol, 100);
 
         System.out.println ("Dziecko ma" + karol.getMojeKieszonkowe() + " zł kieszonkowego");
     }
