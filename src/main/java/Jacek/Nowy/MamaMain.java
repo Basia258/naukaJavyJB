@@ -9,7 +9,7 @@ public class MamaMain {
 
         System.out.println("jasia skarbonka posiada" +  jasio.getSkarbonka() + "zl");
 
-        teresa.dajeKieszkonkowe(jasio);
+        teresa.dajeKieszkonkowe(jasio, 70);
 
         System.out.println("jasia skarbonka posiada" +  jasio.getSkarbonka() + "zl");
 

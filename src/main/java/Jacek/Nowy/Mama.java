@@ -3,9 +3,9 @@ package Jacek.Nowy;
 public class Mama {
 
 
-    public void dajeKieszkonkowe(Dziecko pierwszeDziecko)
+    public void dajeKieszkonkowe(Dziecko pierwszeDziecko,int iloscKieszonkowego)
     {
-        pierwszeDziecko.setSkarbonka(50);
+        pierwszeDziecko.setSkarbonka(iloscKieszonkowego);
     }
 
 
