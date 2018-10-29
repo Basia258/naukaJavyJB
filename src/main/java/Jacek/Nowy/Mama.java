@@ -3,9 +3,9 @@ package Jacek.Nowy;
 public class Mama {
 
 
-    public void dajeKieszkonkowe(Dziecko pierwszeDziecko,int iloscKieszonkowego)
+    public void dajeKieszkonkowe(Dziecko pierwszeDziecko, int kieszonkowe)
     {
-        pierwszeDziecko.mojeKieszonkowe(iloscKieszonkowego);
+        pierwszeDziecko.mojeKieszonkowe(kieszonkowe);
     }
 
 
