@@ -5,12 +5,15 @@ public class MainRodzina {
 
         Dziecko karol = new Dziecko();
         Mama krystyna = new Mama();
+        Skarbonka swinka = new Skarbonka ();
 
-        System.out.println( "Dziecko ma" + karol.getMojeKieszonkowe()+ " zł kieszonkowego");
+        karol.setMojaKochanaSkarbonka(swinka);
+
+        System.out.println( "Dziecko ma" + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
 
         krystyna.dajKieszonkowe(karol, 100);
         krystyna.dajKieszonkowe(karol, 20);
 
-        System.out.println ("Dziecko ma" + karol.getMojeKieszonkowe() + " zł kieszonkowego");
+        System.out.println ("Dziecko ma" + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
     }
 }

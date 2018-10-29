@@ -2,15 +2,26 @@ package Barbara.Rodzina;
 
 public class Dziecko {
 
-    private double mojeKieszonkowe;
+    private Skarbonka mojaKochanaSkarbonka;
 
-    public double getMojeKieszonkowe() {
-        return this.mojeKieszonkowe;
-    }
 
     public void przyjmijKieszonkowe(double kasaZkieszonkowego)
+
     {
-        this.mojeKieszonkowe = this.mojeKieszonkowe + kasaZkieszonkowego;
+        this.mojaKochanaSkarbonka.setMojeKieszonkowe(kasaZkieszonkowego);
     }
 
+
+    public void setMojaKochanaSkarbonka(Skarbonka mojaKochanaSkarbonka)
+
+    {
+        this.mojaKochanaSkarbonka = mojaKochanaSkarbonka;
+    }
+
+    public Skarbonka getMojaKochanaSkarbonka()
+
+    {
+        return mojaKochanaSkarbonka;
+
+    }
 }
