@@ -2,15 +2,20 @@ package Jacek.Nowy;
 
 public class Dziecko {
 
-    private int skarbonka;
+    private Skarbonka rozowaSwinka;
 
 
-    public int getSkarbonka() {
-        return this.skarbonka;
+    public Skarbonka getRozowaSwinka() {
+        return this.rozowaSwinka;
     }
 
-    public void mojeKieszonkowe (int skarbonka) {
-        this.skarbonka = this.skarbonka + skarbonka;
+    public void setSkarbonka(Skarbonka mojaKocanaSkaronka) {
+        this.rozowaSwinka = mojaKocanaSkaronka;
+    }
+
+    public void mojeKieszonkowe (int kasaZKieszonkowego)
+    {
+        this.rozowaSwinka.setIloscPieniedzy(kasaZKieszonkowego);
     }
 
 

@@ -6,13 +6,14 @@ public class MamaMain {
 
         Dziecko jasio = new Dziecko();
         Mama teresa = new Mama();
+        Skarbonka nowa = new Skarbonka();
 
-        System.out.println("jasia skarbonka posiada" +  jasio.getSkarbonka() + "zl");
+        System.out.println("jasia skarbonka posiada" +  jasio.getRozowaSwinka() + "zl");
 
         teresa.dajeKieszkonkowe(jasio, 70);
         teresa.dajeKieszkonkowe(jasio,70);
 
-        System.out.println("jasia skarbonka posiada" +  jasio.getSkarbonka() + "zl");
+        System.out.println("jasia skarbonka posiada" +  jasio.getRozowaSwinka() + "zl");
 
 
     }
