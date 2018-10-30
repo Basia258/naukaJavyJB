@@ -2,10 +2,23 @@ package Barbara.Rodzina;
 
 public class Mama
 
-{
-    public void  dajKieszonkowe(Dziecko mojeDziecko, double iloscKieszonkowego)
+{private Portfel kasaWportfelu;
+
+
+
+    public void  dajKieszonkowe(Dziecko mojeDziecko, double stanPortfela)
 
     {
-        mojeDziecko.przyjmijKieszonkowe(iloscKieszonkowego);
+        this.kasaWportfelu.wyciągnijKase(stanPortfela);
+    }
+
+    public void setKasaWportfelu(Portfel kasaWportfelu)
+    {
+        this.kasaWportfelu = kasaWportfelu;
+    }
+
+    public Portfel getKasaWportfelu()
+    {
+        return kasaWportfelu;
     }
 }

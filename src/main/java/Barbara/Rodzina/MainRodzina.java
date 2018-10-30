@@ -6,14 +6,15 @@ public class MainRodzina {
         Dziecko karol = new Dziecko();
         Mama krystyna = new Mama();
         Skarbonka swinka = new Skarbonka ();
+        Portfel skorzany = new Portfel();
 
-        karol.setMojaKochanaSkarbonka(swinka);
+        krystyna.setKasaWportfelu(skorzany);
 
-        System.out.println( "Dziecko ma" + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
+        System.out.println( "Dziecko ma" + krystyna.getKasaWportfelu().getStanPortfela() + " zł kieszonkowego");
 
         krystyna.dajKieszonkowe(karol, 100);
-        krystyna.dajKieszonkowe(karol, 20);
+        krystyna.dajKieszonkowe(karol, 30);
 
-        System.out.println ("Dziecko ma" + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
+        System.out.println ("Dziecko ma" + krystyna.getKasaWportfelu().getStanPortfela() + " zł kieszonkowego");
     }
 }
