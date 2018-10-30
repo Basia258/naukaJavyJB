@@ -8,13 +8,21 @@ public class MainRodzina {
         Skarbonka swinka = new Skarbonka ();
         Portfel skorzany = new Portfel();
 
+        //zapomnialas dac skarbonke dziecku
+        karol.setMojaKochanaSkarbonka(swinka);
+
         krystyna.setKasaWportfelu(skorzany);
 
-        System.out.println( "Dziecko ma" + krystyna.getKasaWportfelu().getStanPortfela() + " zł kieszonkowego");
+        System.out.println( "Dziecko ma " + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
+        System.out.println( "Mama ma " + krystyna.getKasaWportfelu().getStanPortfela() + " zł w portfelu");
+        System.out.println();
 
+        System.out.println("Mam wlasnie daje kieszonkowe swojemu dzieku....");
         krystyna.dajKieszonkowe(karol, 100);
-        krystyna.dajKieszonkowe(karol, 30);
+//        krystyna.dajKieszonkowe(karol, 30);
 
-        System.out.println ("Dziecko ma" + krystyna.getKasaWportfelu().getStanPortfela() + " zł kieszonkowego");
+        System.out.println();
+        System.out.println ("Dziecko ma " + karol.getMojaKochanaSkarbonka().getMojeKieszonkowe() + " zł kieszonkowego");
+        System.out.println( "Mama ma " + krystyna.getKasaWportfelu().getStanPortfela() + " zł w portfelu");
     }
 }
