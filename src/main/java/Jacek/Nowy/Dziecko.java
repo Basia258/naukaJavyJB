@@ -4,16 +4,17 @@ public class Dziecko {
 
     private Skarbonka rozowaSwinka;
 
-
-    public Skarbonka getRozowaSwinka() {
+    public Skarbonka getRozowaSwinka()
+    {
         return this.rozowaSwinka;
     }
 
-    public void setSkarbonka(Skarbonka mojaKocanaSkaronka) {
-        this.rozowaSwinka = mojaKocanaSkaronka;
+    public void setSkarbonka(Skarbonka rozowaSwinka)
+    {
+        this.rozowaSwinka = rozowaSwinka;
     }
 
-    public void mojeKieszonkowe (int kasaZKieszonkowego)
+    public void przyjmijKieszonkowe (int kasaZKieszonkowego)
     {
         this.rozowaSwinka.setIloscPieniedzy(kasaZKieszonkowego);
     }
