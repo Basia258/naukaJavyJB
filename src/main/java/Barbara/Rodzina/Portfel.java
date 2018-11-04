@@ -7,7 +7,7 @@ public class Portfel {
 
     public Portfel()
     {
-        this.stanPortfela = 50;
+        this.stanPortfela = 300;
     }
 
     public double getStanPortfela() {
