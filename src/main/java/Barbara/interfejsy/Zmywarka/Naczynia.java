@@ -4,4 +4,5 @@ public interface Naczynia {
 
     boolean jestBrudne();
     void setBrudne(boolean stanCzystosci);
+
 }
