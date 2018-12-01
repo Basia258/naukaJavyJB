@@ -3,7 +3,7 @@ package Barbara.Rodzina;
 public class MainRodzina {
     public static void main(String[] args) {
 
-        Dziecko karol = new Dziecko();
+        Dziecko karol = new Dziecko(new Skarbonka());
         Mama krystyna = new Mama();
         Skarbonka swinka = new Skarbonka ();
         Portfel skorzany = new Portfel();

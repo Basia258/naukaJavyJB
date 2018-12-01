@@ -9,7 +9,7 @@ public class Dziecko {
         return this.rozowaSwinka;
     }
 
-    public void setSkarbonka(Skarbonka rozowaSwinka)
+    public void setRozowaSwinka (Skarbonka rozowaSwinka)
     {
         this.rozowaSwinka = rozowaSwinka;
     }

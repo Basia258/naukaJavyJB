@@ -4,6 +4,10 @@ public class Dziecko {
 
     private Skarbonka mojaKochanaSkarbonka;
 
+    public Dziecko(Skarbonka mojaKochanaSkarbonka)
+    {
+        this.mojaKochanaSkarbonka = mojaKochanaSkarbonka;
+    }
 
     public void przyjmijKieszonkowe(double kasaZkieszonkowego) {
         this.mojaKochanaSkarbonka.setMojeKieszonkowe(kasaZkieszonkowego);

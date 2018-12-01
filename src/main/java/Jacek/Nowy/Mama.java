@@ -2,8 +2,11 @@ package Jacek.Nowy;
 
 public class Mama {
 
+    public Mama() {
 
-    public void dajeKieszkonkowe(Dziecko pierwszeDziecko, int kieszonkowe)
+    }
+
+    public void setKieszonkowe(Dziecko pierwszeDziecko, int kieszonkowe)
     {
         pierwszeDziecko.przyjmijKieszonkowe(kieszonkowe);
     }

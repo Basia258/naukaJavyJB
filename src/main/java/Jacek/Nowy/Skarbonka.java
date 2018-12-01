@@ -4,14 +4,15 @@ public class Skarbonka {
 
     private int iloscPieniedzy;
 
-    public int getIloscPieniedzy() {
+    public int getIloscPieniedzy()
+    {
         return iloscPieniedzy;
     }
 
-    public void setIloscPieniedzy(int kieszonkowe) {
+    public void setIloscPieniedzy(int kieszonkowe)
+    {
         this.iloscPieniedzy = iloscPieniedzy + kieszonkowe;
     }
-
 
 
 }
