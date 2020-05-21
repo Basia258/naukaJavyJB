@@ -1,6 +1,6 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja;
 
-import KursUdemy.Sekcja11_klasy.Klasa;
+import nowe2020.KursUdemy.Sekcja11_klasy.Klasa;
 
 public class MainpolaStaticFinal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package JavaDlaPoczatkujacych.rozdzial_pierwszy;
+package nowe2020.JavaDlaPoczatkujacych.rozdzial_pierwszy;
 
 public class GalToLitTable {
     public static void main(String[] args) {

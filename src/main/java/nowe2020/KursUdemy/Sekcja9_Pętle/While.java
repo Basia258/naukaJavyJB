@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja9_Pętle;
+package nowe2020.KursUdemy.Sekcja9_Pętle;
 
 public class While {
     public static void main(String[] args) {

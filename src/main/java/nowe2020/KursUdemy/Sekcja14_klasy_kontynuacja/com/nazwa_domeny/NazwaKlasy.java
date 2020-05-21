@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny;
 
 public class NazwaKlasy {
     public static final String NAZWA_STRING = "nazwa  string";

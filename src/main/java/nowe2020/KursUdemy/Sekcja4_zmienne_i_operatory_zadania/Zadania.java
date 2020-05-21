@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja4_zmienne_i_operatory_zadania;
+package nowe2020.KursUdemy.Sekcja4_zmienne_i_operatory_zadania;
 
 public class Zadania {
     public static void main(String[] args) {

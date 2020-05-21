@@ -1,4 +1,4 @@
-package JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.pitagoras;
+package nowe2020.JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.pitagoras;
 
 public class PanPitagoras {
 

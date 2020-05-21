@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja13_string_zadania;
+package nowe2020.KursUdemy.Sekcja13_string_zadania;
 
 public class Zadanie {
     public static void main(String[] args) {

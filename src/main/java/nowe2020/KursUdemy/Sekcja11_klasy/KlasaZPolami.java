@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja11_klasy;
+package nowe2020.KursUdemy.Sekcja11_klasy;
 
 public class KlasaZPolami {
     int liczbaCalkowita;

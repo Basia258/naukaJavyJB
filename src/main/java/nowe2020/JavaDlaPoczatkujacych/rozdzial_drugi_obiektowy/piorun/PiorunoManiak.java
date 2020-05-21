@@ -1,4 +1,4 @@
-package JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.piorun;
+package nowe2020.JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.piorun;
 
 public class PiorunoManiak {
 

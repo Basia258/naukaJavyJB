@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja12_string;
+package nowe2020.KursUdemy.Sekcja12_string;
 
 public class StringLiteralObiekt {
     public static void main(String[] args) {

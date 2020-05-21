@@ -1,6 +1,6 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja;
 
-import KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.NazwaKlasy;
+import nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.NazwaKlasy;
 
 public class MainMalePodsumowanie {
     public static void main(String[] args) {

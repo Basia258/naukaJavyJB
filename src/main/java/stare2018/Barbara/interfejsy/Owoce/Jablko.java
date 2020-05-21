@@ -8,6 +8,10 @@ public class Jablko implements Owoc {
         this.rodzaj = rodzaj;
     }
 
+    public Jablko() {
+
+    }
+
     public String getRodzaj() {
         return this.rodzaj;
     }

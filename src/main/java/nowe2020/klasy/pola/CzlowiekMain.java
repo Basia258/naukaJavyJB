@@ -1,4 +1,4 @@
-package klasy.pola;
+package nowe2020.klasy.pola;
 
 public class CzlowiekMain {
 

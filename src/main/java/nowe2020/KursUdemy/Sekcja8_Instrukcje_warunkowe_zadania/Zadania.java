@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja8_Instrukcje_warunkowe_zadania;
+package nowe2020.KursUdemy.Sekcja8_Instrukcje_warunkowe_zadania;
 
 public class Zadania {
     public static void main(String[] args) {

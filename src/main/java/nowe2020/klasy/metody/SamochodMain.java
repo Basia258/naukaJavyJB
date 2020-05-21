@@ -1,4 +1,4 @@
-package klasy.metody;
+package nowe2020.klasy.metody;
 
 public class SamochodMain {
 

@@ -1,4 +1,5 @@
-package JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.kalkulator;
+package nowe2020.JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.kalkulator;
+
 
 public class KalulatorMain {
     public static void main(String[] args) {

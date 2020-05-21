@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja3_operatory;
+package nowe2020.KursUdemy.Sekcja3_operatory;
 
 public class OperatoryLogiczne {
     public static void main(String[] args) {

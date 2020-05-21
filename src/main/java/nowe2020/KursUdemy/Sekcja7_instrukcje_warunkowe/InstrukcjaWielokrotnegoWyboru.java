@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja7_instrukcje_warunkowe;
+package nowe2020.KursUdemy.Sekcja7_instrukcje_warunkowe;
 
 public class InstrukcjaWielokrotnegoWyboru {
     public static void main(String[] args) {

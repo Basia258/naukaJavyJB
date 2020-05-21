@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.nazwa_aplikacji.modyfikatoryDostepu.com.przyklad_I;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.nazwa_aplikacji.modyfikatoryDostepu.com.przyklad_I;
 
 public class KlasaA {
 

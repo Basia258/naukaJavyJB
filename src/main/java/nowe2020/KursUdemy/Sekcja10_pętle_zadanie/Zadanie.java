@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja10_pętle_zadanie;
+package nowe2020.KursUdemy.Sekcja10_pętle_zadanie;
 
 public class Zadanie {
     public static void main(String[] args) {

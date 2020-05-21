@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja2_zmienne;
+package nowe2020.KursUdemy.Sekcja2_zmienne;
 
 public class Zmienne {
     public static void main(String[] args) {

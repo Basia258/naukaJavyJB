@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.nazwa_aplikacji.przyklad_jeden;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.com.nazwa_domeny.nazwa_aplikacji.przyklad_jeden;
 
 public class MainPackage {
     public static void main(String[] args) {

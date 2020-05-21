@@ -1,4 +1,4 @@
-package KursUdemy.Sekcja1_podstawy;
+package nowe2020.KursUdemy.Sekcja1_podstawy;
 
 public class DrugaKlasa {
     public static void main(String[] args) {

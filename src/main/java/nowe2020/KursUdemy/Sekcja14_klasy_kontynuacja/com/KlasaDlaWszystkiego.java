@@ -1,6 +1,6 @@
-package KursUdemy.Sekcja14_klasy_kontynuacja.com;
+package nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.com;
 
-import KursUdemy.Sekcja14_klasy_kontynuacja.MetodaDlaFinal;
+import nowe2020.KursUdemy.Sekcja14_klasy_kontynuacja.MetodaDlaFinal;
 
 public class KlasaDlaWszystkiego extends MetodaDlaFinal {
 
