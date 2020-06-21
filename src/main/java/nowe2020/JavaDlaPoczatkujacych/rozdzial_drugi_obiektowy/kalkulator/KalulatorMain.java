@@ -1,7 +1,7 @@
 package nowe2020.JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.kalkulator;
 
 
-public class KalulatorMain {
+public class  KalulatorMain {
     public static void main(String[] args) {
         Kalkulator kalkulator = new Kalkulator();
         PolaFigur polaFigur = new PolaFigur();
@@ -24,6 +24,8 @@ public class KalulatorMain {
         System.out.println("Wynik obwodu trapezu: " + polaFigur.obwodTrapezu(3,4,3,4));
         System.out.println("Wynik pola koła: " + polaFigur.poleKola(3));
         System.out.println("Wynik obwodu koła: " + polaFigur.poleKola(3));
+        kalkulator.tabliczkaMnożenia();
+
 
         System.out.println("------------------------------");
         System.out.println("------------------------------");
@@ -34,6 +36,9 @@ public class KalulatorMain {
         kalkulator.liczbyParzyste(100);
         System.out.println(kalkulator.iloscLiczbParzystych(5));
         kalkulator.macierz();
+        kalkulator.jodełka();
+        kalkulator.jodelka2();
+        kalkulator.drzewko();
 
 
     }
