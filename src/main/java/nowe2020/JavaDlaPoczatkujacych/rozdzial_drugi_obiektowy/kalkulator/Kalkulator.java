@@ -148,7 +148,18 @@ public class Kalkulator {
         int liczbaOdstepow = n - 1;
         int liczbaOdstepowPrzed = n - 1;
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= liczbaOdstepowPrzed; j--) {
+
+            //błąd jest taki, że warunkiem zakończenia pętli jest 'j <= liczbaOdstepowPrzed' a to zawsze jest prawda.
+            //bo dla pierwszej iteracji jest :  1 <= 4
+            //dla drugiej iteracji jest :   0 <= 4
+            // dla trzeciej iteracji jest : -1 <- 4
+            // i tak w nieskończoność
+
+            //Stary kod:
+//            for (int j = 1; j <= liczbaOdstepowPrzed; j--) {
+
+            //Przykładowe rozwiązanie?
+            for (int j = 1; j <= liczbaOdstepowPrzed; j++) {
                 System.out.print(" ");
             }
             for (int k = 1; k <= liczbaGwiazdek; k++) {
