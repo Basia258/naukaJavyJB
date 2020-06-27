@@ -6,6 +6,8 @@ public class  KalulatorMain {
         Kalkulator kalkulator = new Kalkulator();
         PolaFigur polaFigur = new PolaFigur();
 
+        int dodawanie = kalkulator.dodawanie(8, 9);
+
         System.out.println("Metoda sprawdza wyniki dla wartości 5 i 5");
         System.out.println("Wynik metody dodawanie: " + kalkulator.dodawanie(5,5));
         System.out.println("Wynik metody odejmowanie: " + kalkulator.odejmowanie(5,2));

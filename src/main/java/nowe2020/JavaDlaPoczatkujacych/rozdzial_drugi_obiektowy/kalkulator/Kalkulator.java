@@ -2,8 +2,11 @@ package nowe2020.JavaDlaPoczatkujacych.rozdzial_drugi_obiektowy.kalkulator;
 
 public class Kalkulator {
 
-    int dodawanie(int a, int b) {
-        return (a + b);
+    public int dodawanie(int a, int b)
+    {
+
+        int wynik = a + b;
+        return wynik;
     }
 
     int odejmowanie(int a, int b) {
