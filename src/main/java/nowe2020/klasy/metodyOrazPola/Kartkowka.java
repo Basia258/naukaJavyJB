@@ -4,6 +4,8 @@ public class Kartkowka {
     private int pytanie1;
     private int pytanie2;
     private int pytanie3;
+    private int uzyskanaIloscPunktow;
+    private int ocena;
 
     public int getPytanie1() {
         return pytanie1;
@@ -27,5 +29,21 @@ public class Kartkowka {
 
     public void setPytanie3(int pytanie3) {
         this.pytanie3 = pytanie3;
+    }
+
+    public int getUzyskanaIloscPunktow() {
+        return uzyskanaIloscPunktow;
+    }
+
+    public void setUzyskanaIloscPunktow(int uzyskanaIloscPunktow) {
+        this.uzyskanaIloscPunktow = uzyskanaIloscPunktow;
+    }
+
+    public int getOcena() {
+        return ocena;
+    }
+
+    public void setOcena(int ocena) {
+        this.ocena = ocena;
     }
 }

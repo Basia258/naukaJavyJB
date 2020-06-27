@@ -28,9 +28,15 @@ public class SzkolaMain {
         System.out.println("Świetnie! Została dobrze napisana kartkówka");
 
         System.out.println("Teraz sprawdzimy Twoj wynik");
-        int ocenKartkowke = katecheta.obliczPunktyZKartkowki(kartkowka);
-        System.out.println("Twój wynik to " + ocenKartkowke);
-        System.out.println("Co odpowiada ocenie " + katecheta.wystawOcene(ocenKartkowke));
+        int uzyskanaIloscPunktowZKartowki = katecheta.obliczPunktyZKartkowki(kartkowka);
+        int ocena = katecheta.wystawOcene(uzyskanaIloscPunktowZKartowki);
+        kartkowka.setUzyskanaIloscPunktow(uzyskanaIloscPunktowZKartowki);
+        kartkowka.setOcena(uzyskanaIloscPunktowZKartowki);
+
+        System.out.println("Twój wynik to " + uzyskanaIloscPunktowZKartowki);
+        System.out.println("Co odpowiada ocenie " + ocena);
+
+
     }
 
 }
