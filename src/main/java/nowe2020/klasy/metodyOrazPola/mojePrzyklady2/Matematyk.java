@@ -2,16 +2,20 @@ package nowe2020.klasy.metodyOrazPola.mojePrzyklady2;
 
 public class Matematyk {
 
+    // Dlatego cały czas dostajesz ocenę niedostateczną, bo Matematyk dodaje Ci punktu gdy odpowiesz:
+    // na kazde pytanie '1' :)
     public int zliczPunkty (Sprawdzian sprawdzianUcznia) {
         int iloscPunktow = 0;
         if (sprawdzianUcznia.getPierwszePytanie() == 1){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
+//        if (sprawdzianUcznia.getDrugiePytanie() == 2){
         if (sprawdzianUcznia.getDrugiePytanie() == 1){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
+//        if (sprawdzianUcznia.getTrzeciePytanie() == 3){
         if (sprawdzianUcznia.getTrzeciePytanie() == 1){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
