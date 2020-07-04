@@ -174,6 +174,7 @@ public class Kalkulator {
             liczbaOdstepowPrzed--;
             liczbaGwiazdek = +2;
             liczbaOdstepow++;
+
             System.out.println();
         }
     }
