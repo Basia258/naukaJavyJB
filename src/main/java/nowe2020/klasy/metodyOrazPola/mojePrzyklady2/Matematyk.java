@@ -10,21 +10,21 @@ public class Matematyk {
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
-//        if (sprawdzianUcznia.getDrugiePytanie() == 2){
-        if (sprawdzianUcznia.getDrugiePytanie() == 1){
+        if (sprawdzianUcznia.getDrugiePytanie() == 2){
+//        if (sprawdzianUcznia.getDrugiePytanie() == 1){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
-//        if (sprawdzianUcznia.getTrzeciePytanie() == 3){
-        if (sprawdzianUcznia.getTrzeciePytanie() == 1){
+        if (sprawdzianUcznia.getTrzeciePytanie() == 3){
+//        if (sprawdzianUcznia.getTrzeciePytanie() == 1){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
-        if (sprawdzianUcznia.getCzwartePytanie() == 1){
+        if (sprawdzianUcznia.getCzwartePytanie() == 4){
             System.out.println("Dobrze wykonałeś zadanie");
             iloscPunktow++;
         }
-        if (sprawdzianUcznia.getPiatePytanie() == 1){
+        if (sprawdzianUcznia.getPiatePytanie() == 5){
             System.out.println("Dobrze wykonałeś swoje zadanie");
             iloscPunktow++;
         }
