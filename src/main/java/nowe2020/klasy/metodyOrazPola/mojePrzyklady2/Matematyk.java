@@ -4,6 +4,7 @@ public class Matematyk {
 
     // Dlatego cały czas dostajesz ocenę niedostateczną, bo Matematyk dodaje Ci punktu gdy odpowiesz:
     // na kazde pytanie '1' :)
+//    public int zliczPunkty (int odp1, int odp2, int odp3) {
     public int zliczPunkty (Sprawdzian sprawdzianUcznia) {
         int iloscPunktow = 0;
         if (sprawdzianUcznia.getPierwszePytanie() == 1){
@@ -53,6 +54,10 @@ public class Matematyk {
         }
         System.out.println("Nie zdobyłeś ani jednego punktu otrzymujesz ocenę niedostateczną");
         return 0;
+    }
+
+    public double dodawanie(double a, double b) {
+        return a + b;
     }
 }
 

@@ -6,6 +6,7 @@ public class Przyklad2Main {
     public static void main(String[] args) {
 
         Sprawdzian sprawdzianZMatematyki = new Sprawdzian();
+        Kartkowka kartkowkaZMatematyki = new Kartkowka();
         Matematyk jabłonskaJolanta = new Matematyk();
 
         Scanner czytnikKonsoli = new Scanner(System.in);
@@ -29,6 +30,7 @@ public class Przyklad2Main {
         sprawdzianZMatematyki.setPiatePytanie(odpowiedziDoPiątegoPytania);
 
         int uzyskanaIloscPunktowZeSprawdzianu = jabłonskaJolanta.zliczPunkty(sprawdzianZMatematyki);
+//        int uzyskanaIloscPunktowZKartkowki = jabłonskaJolanta.zliczPunkty(kartkowkaZMatematyki);
         int ocena = jabłonskaJolanta.wystawOceneSprawdzianu(uzyskanaIloscPunktowZeSprawdzianu);
 
     }
