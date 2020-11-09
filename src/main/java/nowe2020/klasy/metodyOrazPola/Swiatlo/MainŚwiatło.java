@@ -6,7 +6,7 @@ public class MainŚwiatło {
         Włacznik odPokoju = new Włacznik();
         Czlowiek jozekZapalka = new Czlowiek();
         odPokoju.zapal(osram);
-        odPokoju.stanWłacznika = true;
+        jozekZapalka.wcisnijGuzik(odPokoju);
         odPokoju.zapal(osram);
     }
 }
