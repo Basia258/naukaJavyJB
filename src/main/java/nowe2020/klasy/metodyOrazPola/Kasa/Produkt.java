@@ -9,6 +9,7 @@ public class Produkt {
     }
 
     public int getCena() {
+        System.out.print("cena produktu: ");
         return cena;
     }
 
