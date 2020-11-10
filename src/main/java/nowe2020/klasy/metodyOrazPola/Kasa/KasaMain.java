@@ -7,6 +7,7 @@ public class KasaMain {
         Produkt wiertarka = new Produkt();
         Produkt odkurzacz = new Produkt();
         CzytnikCen czytnikSamsung = new CzytnikCen();
+        Kasa kasaSklepu = new Kasa();
 
         pracownikBiedronki.nadajCene(młotek, 123);
         pracownikBiedronki.nadajKod(młotek, 590403);
@@ -17,6 +18,7 @@ public class KasaMain {
         czytnikSamsung.czytnikCenyProduktu(wiertarka,590401);
         czytnikSamsung.czytnikCenyProduktu(odkurzacz,590402);
         czytnikSamsung.czytnikCenyProduktu(młotek, 590403);
+        kasaSklepu.podliczZakupy(młotek,wiertarka,odkurzacz);
 
 
 
